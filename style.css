@@ -1,0 +1,46 @@
+@import url(https://allfont.net/allfont.css?fonts=digital-7-mono);
+.main
+{
+    height: 40em;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: red;
+    
+}
+
+h3
+{
+    padding-top: 1.5em;
+    font-family: 'Digital-7 Mono', arial;
+    font-size: 80px !important;
+}
+
+.main h2
+{
+   
+    display: inline-block;
+    font-family: 'Digital-7 Mono', arial;
+    font-size: 100px !important;
+    
+    text-shadow: 4px 4px 4px gray;
+    
+}
+
+.fa-play-circle, .fa-pause-circle, .fa-stop-circle
+{
+    font-size: 45px !important;
+   color: red !important;
+
+}
+
+.fa-play-circle:hover, .fa-pause-circle:hover, .fa-stop-circle:hover
+{
+    opacity: 0.5;
+    font-size: 47px !important;
+}
+button
+{
+    background-color: black ;
+    border: none;
+}

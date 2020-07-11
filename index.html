@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <h3>stop watch</h3>
+        <div>
+            <h2 id="min">0</h2>
+            <h2>:</h2>
+            <h2 id="sec">0</h2>
+            <h2>:</h2>
+            <h2 id="msec">0</h2>
+        </div>
+
+        <br>
+
+        <div>
+            <button id="sB" onclick="start()"> <i class="fa fa-play-circle mx-3"aria-hidden="true" ></i></button>
+            <i class="fa fa-pause-circle mx-3" onclick="pause()" aria-hidden="true"></i>
+            <i class="fa fa-stop-circle mx-3" onclick="stop()" aria-hidden="true"></i>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
