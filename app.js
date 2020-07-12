@@ -23,7 +23,6 @@ function timer() {
         sec = 0;
     }
 
-
 }
 
 function start() {
@@ -46,4 +45,7 @@ function stop() {
     msecHead.innerHTML = msec;
     secHead.innerHTML = sec;
     minHead.innerHTML = min;
+    clearInterval(time)
+    var btn = document.getElementById("sB");
+    btn.disabled = false;
 }

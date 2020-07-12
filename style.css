@@ -1,4 +1,9 @@
 @import url(https://allfont.net/allfont.css?fonts=digital-7-mono);
+@font-face
+{
+    font-family: 'Digital-7 Mono', arial;
+    src: url(https://allfont.net/allfont.css?fonts=digital-7-mono);
+}
 .main
 {
     height: 40em;
